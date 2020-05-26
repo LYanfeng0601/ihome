@@ -2,7 +2,7 @@
 from flask import Flask,session
 from flask_sqlalchemy import SQLAlchemy
 import redis
-
+import Flask-Session
 
 app = Flask(__name__)
 class Config(object):
